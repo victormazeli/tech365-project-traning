@@ -4,7 +4,8 @@ import axios from 'axios';
 import './app.css';
 import Item from './components/Item';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'http://localhost:8000';
+
 
 function App() {
   const [text, setText] = useState('');
